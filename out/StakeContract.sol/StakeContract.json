@@ -1,0 +1,82 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212207755aff99b7f28642133dd97dc49339e2a4634d16310cee7fa3d508e318383f964736f6c634300080f0033",
+    "sourceMap": "115:25:11:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052600080fdfea26469706673582212207755aff99b7f28642133dd97dc49339e2a4634d16310cee7fa3d508e318383f964736f6c634300080f0033",
+    "sourceMap": "115:25:11:-:0;;;;;",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {},
+  "ast": {
+    "absolutePath": "src/StakeContract.sol",
+    "id": 21770,
+    "exportedSymbols": {
+      "Context": [
+        21746
+      ],
+      "ERC20": [
+        21621
+      ],
+      "IERC20": [
+        21699
+      ],
+      "IERC20Metadata": [
+        21724
+      ],
+      "StakeContract": [
+        21769
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:109:11",
+    "nodes": [
+      {
+        "id": 21767,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:11",
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".15"
+        ]
+      },
+      {
+        "id": 21768,
+        "nodeType": "ImportDirective",
+        "src": "58:55:11",
+        "absolutePath": "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "file": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 21770,
+        "sourceUnit": 21622,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 21769,
+        "nodeType": "ContractDefinition",
+        "src": "115:25:11",
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "StakeContract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          21769
+        ],
+        "name": "StakeContract",
+        "nameLocation": "124:13:11",
+        "scope": 21770,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 11
+}
